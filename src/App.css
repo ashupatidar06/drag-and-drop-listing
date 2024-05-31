@@ -36,3 +36,58 @@
     transform: rotate(360deg);
   }
 }
+
+
+.border-1 {
+  border-width: 1px;
+}
+
+.border-gray-400 {
+  border-color: #cbd5e0; /* Adjust the color code according to your need */
+}
+
+.rounded {
+  border-radius: 0.25rem; /* Adjust the radius as per your design */
+}
+
+.p-4 {
+  padding: 1rem; /* Adjust the padding value as per your design */
+}
+
+.container {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 0 10px;
+}
+
+.draggable-item {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  cursor: move;
+}
+.dragging {
+  opacity: 1!important;
+}
+
+a {
+  float: right;
+}
+
+.container {
+  display: flex;
+}
+
+.column {
+  margin: 0 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.draggable-item {
+  border: 1
+}
